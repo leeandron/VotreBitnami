@@ -3,7 +3,7 @@
 Plugin Name: DFD Theme Extensions
 Plugin URI: http://nativewptheme.net
 Description: DFD theme extensions plugin. Contains DFD custom shortcodes for Visual Composer, custom post types and custom shortcodes
-Version: 1.2.8
+Version: 1.3.2
 Author: DFD
 Author URI: http://dfd.name
 */

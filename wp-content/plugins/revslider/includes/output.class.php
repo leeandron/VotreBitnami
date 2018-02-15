@@ -4645,8 +4645,9 @@ class RevSliderOutput {
 		?>
 		<script type="text/javascript">
 <?php if(!$markup_export){ //not needed for html markup export ?>
-setREVStartSize(<?php 
-			echo "{c: jQuery('#". $this->sliderHtmlID ."'),";
+if (setREVStartSize!==undefined) setREVStartSize(
+	<?php 
+			echo "{c: '#". $this->sliderHtmlID ."',";
 			if(isset($csizes['level']) && !empty($csizes['level'])){
 				echo " responsiveLevels: [". $csizes['level'] ."],";
 			}
@@ -4677,10 +4678,19 @@ setREVStartSize(<?php
 			
 <?php } ?>
 var revapi<?php echo $sliderID; ?>,
-	tpj=jQuery;
-<?php if($noConflict == "on"){ ?>tpj.noConflict();<?php } ?>			
-<?php
-	echo 'tpj(document).ready(function() {'."\n";
+	tpj;	
+(function() {			
+	if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad)
+		else
+	onLoad();
+	
+	function onLoad() {				
+		if (tpj===undefined) {
+			tpj = jQuery;
+
+			if("<?php echo $noConflict; ?>" == "on") tpj.noConflict();		
+		}
+<?php		
 	echo '	if(tpj("#'.$this->sliderHtmlID.'").revolution == undefined){'."\n";
 	echo '		revslider_showDoubleJqueryError("#'.$this->sliderHtmlID.'");'."\n";
 	echo '	}else{'."\n";
@@ -5250,12 +5260,14 @@ var revapi<?php echo $sliderID; ?>,
 	if($this->slider->getParam("custom_javascript", '') !== ''){
 		echo str_replace('var counter = {val:doctop};', 'var counter = {val:(window.pageYOffset || document.documentElement.scrollTop)  - (document.documentElement.clientTop || 0)};', stripslashes($this->slider->getParam("custom_javascript", '')));
 	}
-	echo '	}'."\n";
+	echo '	}; /* END OF revapi call */'."\n";
 	echo '	';
 	do_action('revslider_fe_javascript_output', $this->slider, $this->sliderHtmlID);
 	echo ''."\n";
-	echo '});	/*ready*/'."\n";
+		
 	?>
+ }; /* END OF ON LOAD FUNCTION */
+}()); /* END OF WRAPPING FUNCTION */
 </script>
 		<?php
 		if($js_to_footer && $this->previewMode == false && $markup_export == false){

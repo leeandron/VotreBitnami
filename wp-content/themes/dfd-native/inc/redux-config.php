@@ -10709,7 +10709,7 @@
 				'type' => 'color',
 				'title' => __('Background color', 'dfd-native'),
 				'default' => '#ffffff',
-				'validate' => 'color_rgba',
+				'validate' => 'color',
 				'required' => array( 'is_header_builder_enabled', "=", 'on' ),
 				'hint' => array(
 					'title'   => esc_attr__('Background color','dfd-native'),
@@ -10990,7 +10990,7 @@
 				'type' => 'color',
 				'title' => __('Top panel background color', 'dfd-native'),
 				'default' => '#ffffff',
-				'validate' => 'color_rgba',
+				'validate' => 'color',
 				'required' => array( 'is_header_builder_enabled', "=", 'on' ),
 				'hint' => array(
 					'title'   => esc_attr__('Background color','dfd-native'),
@@ -11002,7 +11002,7 @@
 				'type' => 'color',
 				'title' => __('Middle panel background color', 'dfd-native'),
 				'default' => '#ffffff',
-				'validate' => 'color_rgba',
+				'validate' => 'color',
 				'required' => array( 'is_header_builder_enabled', "=", 'on' ),
 				'hint' => array(
 					'title'   => esc_attr__('Background color','dfd-native'),
@@ -11014,7 +11014,7 @@
 				'type' => 'color',
 				'title' => __('Bottom panel background color', 'dfd-native'),
 				'default' => '#ffffff',
-				'validate' => 'color_rgba',
+				'validate' => 'color',
 				'required' => array( 'is_header_builder_enabled', "=", 'on' ),
 				'hint' => array(
 					'title'   => esc_attr__('Background color','dfd-native'),
@@ -11026,7 +11026,7 @@
 				'type' => 'color',
 				'title' => __('Top panel text color', 'dfd-native'),
 				'default' => '#313131',
-				'validate' => 'color_rgba',
+				'validate' => 'color',
 				'required' => array( 'is_header_builder_enabled', "=", 'on' ),
 				'hint' => array(
 					'title'   => esc_attr__('Text color','dfd-native'),
@@ -11039,7 +11039,7 @@
 				'title' => __('Middle panel text color', 'dfd-native'),
 				'default' => '#313131',
 				'required' => array( 'is_header_builder_enabled', "=", 'on' ),
-				'validate' => 'color_rgba',
+				'validate' => 'color',
 				'hint' => array(
 					'title'   => esc_attr__('Text color','dfd-native'),
 					'content' => esc_attr__('Specify the text color for the Middle panel\'s elements','dfd-native')
@@ -11051,7 +11051,7 @@
 				'title' => __('Bottom panel text color', 'dfd-native'),
 				'default' => '#313131',
 				'required' => array( 'is_header_builder_enabled', "=", 'on' ),
-				'validate' => 'color_rgba',
+				'validate' => 'color',
 				'hint' => array(
 					'title'   => esc_attr__('Text color','dfd-native'),
 					'content' => esc_attr__('Specify the text color for the Bottom panel\'s elements','dfd-native')
@@ -11063,7 +11063,7 @@
 				'title' => __('Border Color', 'dfd-native'),
 				'default' => '#e7e7e7',
 				'required' => array( 'is_header_builder_enabled', "=", 'on' ),
-				'validate' => 'color_rgba',
+				'validate' => 'color',
 				'hint' => array(
 					'title'   => esc_attr__('Border color','dfd-native'),
 					'content' => esc_attr__('Choose the border color for the header. The color will be also applied for the delimiters set in header','dfd-native')
@@ -11295,4 +11295,3 @@
             }
         }
     }
-

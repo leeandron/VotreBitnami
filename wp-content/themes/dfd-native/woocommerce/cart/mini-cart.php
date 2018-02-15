@@ -15,7 +15,7 @@
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 3.2.0
+ * @version 3.3.0
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -23,13 +23,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 do_action( 'woocommerce_before_mini_cart' ); ?>
 
-<?php if ( ! WC()->cart->is_empty() ) : ?>
+<ul class="woocommerce-mini-cart cart_list product_list_widget <?php echo esc_attr($args['list_class']); ?>">
+	
+<?php if ( ! WC()->cart->is_empty() ) : 
 
-	<ul class="woocommerce-mini-cart cart_list product_list_widget <?php echo esc_attr($args['list_class']); ?>">
-		<?php
 			do_action( 'woocommerce_before_mini_cart_contents' );
 		
 			foreach ( WC()->cart->get_cart() as $cart_item_key => $cart_item ) {
+				
+				/*compatibility 3.3.0*/
+				$remove_link = function_exists('wc_get_cart_remove_url') ? wc_get_cart_remove_url($cart_item_key) : WC()->cart->get_remove_url($cart_item_key);
+				
 				$_product     = apply_filters( 'woocommerce_cart_item_product', $cart_item['data'], $cart_item, $cart_item_key );
 				$product_id   = apply_filters( 'woocommerce_cart_item_product_id', $cart_item['product_id'], $cart_item, $cart_item_key );
 
@@ -55,12 +59,12 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 									<?php echo $product_name; ?>
 								</a>
 							<?php } ?>
-							<?php echo WC()->cart->get_item_data( $cart_item ); ?>							
+							<?php echo wc_get_formatted_cart_item_data( $cart_item ); ?>
 						</div>
 						<?php
 							echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
 								'<a href="%s" class="remove remove_from_cart_button" aria-label="%s" data-product_id="%s" data-cart_item_key="%s" data-product_sku="%s">&times;</a>',
-								esc_url( WC()->cart->get_remove_url( $cart_item_key ) ),
+								esc_url( $remove_link ),
 								__( 'Remove this item', 'dfd-native' ),
 								esc_attr( $product_id ),
 								esc_attr( $cart_item_key ),

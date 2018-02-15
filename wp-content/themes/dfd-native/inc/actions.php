@@ -724,6 +724,7 @@ if(!function_exists('dfd_add_async_script_attr')) {
 		return str_replace( ' src', ' async="async" src', $tag );
 	}
 }
+
 /*
 if(!defined('ENVATO_HOSTED_SITE') || !ENVATO_HOSTED_SITE) {
 	add_action( 'admin_notices', 'dfd_customization_services_notice' );

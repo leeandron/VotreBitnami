@@ -1,18 +1,18 @@
 <?php
 /**
- * The template for displaying product widget entries
+ * The template for displaying product widget entries.
  *
  * This template can be overridden by copying it to yourtheme/woocommerce/content-widget-product.php.
+ * HOWEVER, on occasion WooCommerce will need to update template files and you
+ * (the theme developer) will need to copy the new files to your theme to
+ * maintain compatibility. We try to do this as little as possible, but it does
+ * happen. When this occurs the version of the template file will be bumped and
+ * the readme will list any important changes.
  *
- * HOWEVER, on occasion WooCommerce will need to update template files and you (the theme developer).
- * will need to copy the new files to your theme to maintain compatibility. We try to do this.
- * as little as possible, but it does happen. When this occurs the version of the template file will.
- * be bumped and the readme will list any important changes.
- *
- * @see 	http://docs.woothemes.com/document/template-structure/
+ * @see     https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 2.5.0
+ * @version 3.3.0
  */
 
 // Exit if accessed directly
@@ -49,6 +49,7 @@ if (function_exists('dfd_aq_resize')) {
 
 ?>
 <li>
+	<?php do_action( 'woocommerce_widget_product_item_start', $args ); ?>
 	<div class="product_thumbnail"><img src="<?php echo esc_url($thumbnail_url); ?>" alt="" /></div>
 	<div class="product_summary">
 		<a href="<?php the_permalink() ?>" title="<?php echo esc_attr($product->get_title()); ?>"><?php echo esc_html($product->get_title()); ?></a>
@@ -63,4 +64,5 @@ if (function_exists('dfd_aq_resize')) {
 			?>
 		<?php endif; ?>
 	</div>
+	<?php do_action( 'woocommerce_widget_product_item_end', $args ); ?>
 </li>

@@ -13,7 +13,7 @@
  * @see 	https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 3.2.0
+ * @version 3.3.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -38,6 +38,7 @@ if($show_customer_details) {
 ?>
 <div class="row">
 	<div class="<?php echo esc_attr($columns_classes[0]) ?> columns">
+		<?php do_action( 'woocommerce_order_details_before_order_table', $order ); ?>
 		<h2><?php esc_html_e( 'Order Details', 'dfd-native' ); ?></h2>
 		<table class="shop_table order_details">
 			<thead>
@@ -48,6 +49,8 @@ if($show_customer_details) {
 			</thead>
 			<tbody>
 				<?php
+				do_action( 'woocommerce_order_details_before_order_table_items', $order );
+				
 				foreach ( $order->get_items() as $item_id => $item ) {
 					$product = apply_filters( 'woocommerce_order_item_product', $item->get_product(), $item );
 
@@ -60,6 +63,8 @@ if($show_customer_details) {
 						'product'	         => $product,
 					) );
 				}
+				
+				do_action( 'woocommerce_order_details_after_order_table_items', $order );
 			?>
 			<?php do_action( 'woocommerce_order_items_table', $order ); ?>
 			</tbody>
@@ -83,12 +88,15 @@ if($show_customer_details) {
 			</tfoot>
 		</table>
 	</div>
+	<?php do_action( 'woocommerce_order_details_after_order_table', $order ); ?>
 	<div class="<?php echo esc_attr($columns_classes[1]) ?> columns">
 		<?php do_action( 'woocommerce_order_details_after_order_table', $order ); ?>
 
-		<?php if ( $show_customer_details ) : ?>
-			<?php wc_get_template( 'order/order-details-customer.php', array( 'order' => $order ) ); ?>
-		<?php endif; ?>
+		<?php 
+		if ( $show_customer_details ) {
+			wc_get_template( 'order/order-details-customer.php', array( 'order' => $order ) );
+		}
+		?>
 	</div>
 </div>
 
