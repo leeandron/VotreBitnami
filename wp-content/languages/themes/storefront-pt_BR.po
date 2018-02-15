@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Storefront package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-02-07 20:49:14+0000\n"
+"PO-Revision-Date: 2017-11-15 16:36:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,23 +19,7 @@ msgstr "Storefront"
 msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love it's lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
 msgstr "Storefront é o tema perfeito para o seu próximo projeto com WooCommerce. Projetado e desenvolvido pelos desenvolvedores do WooCommerce, possuindo uma profunda integração com o WooCommerce e com várias de nossas mais populares extensões voltadas para o cliente. Possui várias opções de layout e cores para personalizar a sua loja, várias regiões de widget, é um projeto ágil e muito mais. Os desenvolvedores vão adorar é código base que é extensível, tornando-se muito simples para personalizar e estender. Está procurando um tema para WooCommerce? Não procure mais!"
 
-#: inc/storefront-template-functions.php:130
-msgid "Built with Storefront &amp; WooCommerce"
-msgstr "Construído com Storefront e WooCommerce"
-
-#: inc/storefront-template-functions.php:130
-msgid "WooCommerce - The Best eCommerce Platform for WordPress"
-msgstr "WooCommerce - A melhor plataforma de e-commerce para WordPress"
-
-#: inc/nux/class-storefront-nux-guided-tour.php:125
-msgid "Organize your menus by adding Pages, Categories, Tags, and Custom Links."
-msgstr "Organize os seus menus adicionando páginas, categorias, tags e links personalizados."
-
-#: inc/nux/class-storefront-nux-guided-tour.php:124
-msgid "Customize your navigation menus"
-msgstr "Personalize os seus menus de navegação"
-
-#: inc/class-storefront.php:332
+#: inc/class-storefront.php:330
 msgid "Post Navigation"
 msgstr "Navegação de post"
 
@@ -251,19 +235,19 @@ msgstr "Para ativar os recursos de eCommerce você precisa instalar o plugin Woo
 msgid "Thanks for installing Storefront, you rock! 🤘"
 msgstr "Valeu por instalar o Storefront, você é demais! 🤘"
 
-#: inc/class-storefront.php:171
+#: inc/class-storefront.php:169
 msgid "Widgets added here will appear in column %1$d of footer row %2$d."
 msgstr "Widgets adicionados aqui aparecerão na coluna %1$d da linha de rodapé %2$d."
 
-#: inc/class-storefront.php:170
+#: inc/class-storefront.php:168
 msgid "Footer Row %1$d - Column %2$d"
 msgstr "Linha do rodapé %1$d - Coluna %2$d"
 
-#: inc/class-storefront.php:168
+#: inc/class-storefront.php:166
 msgid "Widgets added here will appear in column %1$d of the footer."
 msgstr "Os widgets adicionados aqui aparecerão na coluna %1$d do rodapé."
 
-#: inc/class-storefront.php:167
+#: inc/class-storefront.php:165
 msgid "Footer Column %1$d"
 msgstr "Coluna de rodapé %1$d"
 
@@ -369,7 +353,7 @@ msgstr "Documentação"
 msgid "Support"
 msgstr "Suporte"
 
-#: inc/class-storefront.php:155
+#: inc/class-storefront.php:153
 msgid "Widgets added to this region will appear beneath the header and above the main content."
 msgstr "Os widgets adicionados a esta região irão aparecer sob o cabeçalho e acima do conteúdo principal."
 
@@ -421,7 +405,7 @@ msgstr "Escrito por"
 msgid "Menu"
 msgstr "Menu"
 
-#: inc/class-storefront.php:153
+#: inc/class-storefront.php:151
 msgid "Below Header"
 msgstr "Abaixo do cabeçalho"
 
@@ -568,7 +552,7 @@ msgstr "Seu comentário está aguardando moderação."
 msgid "Handheld Menu"
 msgstr "Menu handheld"
 
-#: inc/class-storefront.php:147
+#: inc/class-storefront.php:145
 msgid "Sidebar"
 msgstr "Lateral"
 
@@ -724,10 +708,6 @@ msgstr[1] "%1$s comentários sobre &ldquo;%2$s&rdquo;"
 #: 404.php:19
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Ops! Essa página não pode ser encontrada."
-
-#. Author of the plugin/theme
-msgid "Automattic"
-msgstr "Automattic"
 
 #. Author URI of the plugin/theme
 msgid "https://woocommerce.com/"
