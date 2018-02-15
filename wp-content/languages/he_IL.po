@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-02-12 09:39:31+0000\n"
+"PO-Revision-Date: 2017-11-15 13:54:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,17 +36,7 @@ msgstr ","
 msgid "number_format_decimal_point"
 msgstr "."
 
-#. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3970
-msgid "%s is already customizing this changeset. Do you want to take over?"
-msgstr "%s כבר מבצע שינויים בערכת השינויים הזו. האם ברצונך להשתלט?"
-
-#. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3968
-msgid "%s is already customizing this changeset. Please wait until they are done to try customizing. Your latest changes have been autosaved."
-msgstr "%s כבר מבצע שינויים בערכת השינויים הזו. יש להמתין עד שהוא יסיים. השינויים האחרונים שלך נשמרו אוטומטית."
-
-#: wp-includes/class-wp-customize-manager.php:4172
+#: wp-includes/class-wp-customize-manager.php:4135
 msgid "Update anyway, even though it might break your site?"
 msgstr "לעדכן בכל מקרה? למרות שזה יכול להפיל את האתר?"
 
@@ -85,7 +75,7 @@ msgctxt "tags"
 msgid "Most Used"
 msgstr "הנפוצים ביותר"
 
-#: wp-includes/class-wp-customize-nav-menus.php:966
+#: wp-includes/class-wp-customize-nav-menus.php:950
 msgid "Click &#8220;Next&#8221; to start adding links to your new menu."
 msgstr "לחץ \"הבא\" כדי להתחיל להוסיף קישורים לתפריט החדש."
 
@@ -99,7 +89,7 @@ msgctxt "post action/button label"
 msgid "Schedule"
 msgstr "מתוזמן לפרסום"
 
-#: wp-includes/class-wp-customize-manager.php:4627
+#: wp-includes/class-wp-customize-manager.php:4588
 #: wp-includes/script-loader.php:554
 msgctxt "customizer changeset action/button label"
 msgid "Schedule"
@@ -133,37 +123,37 @@ msgstr "%s השתלט על ההתאמה האישית כדי לבצע שינוי�
 msgid "Looks like something&#8217;s gone wrong. Wait a couple seconds, and then try again."
 msgstr "נראה שמשהו השתבש. יש להמתין מספר שניות ולנסות שוב."
 
-#: wp-includes/class-wp-customize-manager.php:4158
+#: wp-includes/class-wp-customize-manager.php:4121
 msgid "Take over"
 msgstr "השתלט"
 
-#: wp-includes/class-wp-customize-manager.php:4154
+#: wp-includes/class-wp-customize-manager.php:4117
 msgid "Go back"
 msgstr "חזרה"
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3975
+#: wp-includes/class-wp-customize-manager.php:4110
 msgid "%s is already customizing this site. Please wait until they are done to try customizing. Your latest changes have been autosaved."
 msgstr "%s כבר מבצע שינויים במסך ההתאמה האישית. יש להמתין עד שהוא יסיים. השינויים האחרונים שלך נשמרו אוטומטית."
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3977
+#: wp-includes/class-wp-customize-manager.php:4105
 msgid "%s is already customizing this site. Do you want to take over?"
 msgstr "%s כבר מבצע שינויים במסך ההתאמה האישית. האם ברצונך להשתלט?"
 
-#: wp-includes/class-wp-customize-manager.php:3228
+#: wp-includes/class-wp-customize-manager.php:3210
 msgid "Sorry, you are not allowed to take over."
 msgstr "אין לך הרשאות להשתלט."
 
-#: wp-includes/class-wp-customize-manager.php:3221
+#: wp-includes/class-wp-customize-manager.php:3203
 msgid "No changeset found to take over"
 msgstr "לא נמצאו שינויים להשתלט עליהם"
 
-#: wp-includes/class-wp-customize-manager.php:3212
+#: wp-includes/class-wp-customize-manager.php:3194
 msgid "Security check failed."
 msgstr "בדיקת אבטחה נכשלה."
 
-#: wp-includes/class-wp-customize-manager.php:2456
+#: wp-includes/class-wp-customize-manager.php:2451
 msgid "Changeset is being edited by other user."
 msgstr "ערכת השינויים נערכת על ידי משתמש אחר."
 
@@ -188,24 +178,24 @@ msgctxt "menu locations"
 msgid "Where do you want this menu to appear?"
 msgstr "היכן להציג את התפריט הזה?"
 
-#: wp-includes/class-wp-customize-nav-menus.php:980
+#: wp-includes/class-wp-customize-nav-menus.php:964
 msgid "You&#8217;ll create a menu, assign it a location, and add menu items like links to pages and categories. If your theme has multiple menu areas, you might need to create more than one."
 msgstr "ניתן ליצור תפריט, להקצות לו מיקום ולהוסיף פריטים כגון קישורים לדפים ולקטגוריות. אם התבנית כולל אזורי תפריטים מרובים, ייתכן שיהיה צורך ליצור יותר מתפריט אחד."
 
-#: wp-includes/class-wp-customize-nav-menus.php:977
+#: wp-includes/class-wp-customize-nav-menus.php:961
 msgid "It doesn&#8217;t look like your site has any menus yet. Want to build one? Click the button to start."
 msgstr "נראה שבאתר עדיין אין תפריטים. כדי ליצור תפריט חדש יש ללחוץ על הכפתור."
 
-#: wp-includes/class-wp-customize-nav-menus.php:604
+#: wp-includes/class-wp-customize-nav-menus.php:588
 msgctxt "menu locations"
 msgid "View All Locations"
 msgstr "הצג את כל המיקומים"
 
-#: wp-includes/class-wp-customize-manager.php:4828
+#: wp-includes/class-wp-customize-manager.php:4788
 msgid "While previewing a new theme, you can continue to tailor things like widgets and menus, and explore theme-specific options."
 msgstr "בתצוגה מקדימה של תבנית חדשה ניתן להמשיך ולהתאים דברים כמו וידג'טים ותפריטים, ולחקור אפשרויות ספציפיות הכלולות בתבנית."
 
-#: wp-includes/class-wp-customize-manager.php:4827
+#: wp-includes/class-wp-customize-manager.php:4787
 msgid "Looking for a theme? You can search or browse the WordPress.org theme directory, install and preview themes, then activate them right here."
 msgstr "מחפשים תבנית? ניתן לחפש בספריית התבניות של WordPress.org, להתקין ולראות תצוגה מקדימה, ואז להפעיל אותה ממש כאן."
 
@@ -213,11 +203,11 @@ msgstr "מחפשים תבנית? ניתן לחפש בספריית התבניות
 msgid "Something went wrong. Your change may not have been saved. Please try again. There is also a chance that you may need to manually fix and upload the file over FTP."
 msgstr "משהו השתבש. יתכן שהשינוים לא נשמרו. יש לנסות שוב. ייתכן שיהיה צורך להעלות את הקבצים ידנית באמצעות FTP."
 
-#: wp-includes/class-wp-customize-manager.php:5282
+#: wp-includes/class-wp-customize-manager.php:5242
 msgid "Screen reader users: when in forms mode, you may need to press the escape key twice."
 msgstr "משתמשים העושים שימוש בקוראי מסך: כאשר במצב טפסים, ייתכן שתידרשו ללחוץ פעמיים כל כפתור ה-escape."
 
-#: wp-includes/class-wp-customize-nav-menus.php:604
+#: wp-includes/class-wp-customize-nav-menus.php:588
 msgctxt "menu locations"
 msgid "View Location"
 msgstr "הצג מיקומים"
@@ -230,7 +220,7 @@ msgstr "העבר קדימה 1% שניות"
 msgid "No themes found. Try a different search."
 msgstr "לא נמצאו תבניות. נסה חיפוש אחר."
 
-#: wp-includes/class-wp-customize-nav-menus.php:592
+#: wp-includes/class-wp-customize-nav-menus.php:576
 msgid "Your theme can display menus in one location. Select which menu you would like to use."
 msgstr "התבנית יכולה להציג תפריטים במיקום אחד. יש לבחור באיזה תפריט יש להשתמש."
 
@@ -716,13 +706,13 @@ msgstr "אתר: %1$s (כתובת IP: %2$s, %3$s)"
 
 #. translators: Network admin email change notification email subject. %s:
 #. Network title
-#: wp-includes/ms-functions.php:2704
+#: wp-includes/ms-functions.php:2697
 msgid "[%s] Notice of Network Admin Email Change"
 msgstr "[%s] הודעה על שינוי כתובת אימייל של מנהל הרשת"
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/ms-functions.php:2689
+#: wp-includes/ms-functions.php:2682
 msgid ""
 "Hi,\n"
 "\n"
@@ -798,13 +788,13 @@ msgstr "בדיקת הסימון נכשלה. נא לנסות שנית."
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title
-#: wp-includes/functions.php:5779
+#: wp-includes/functions.php:5772
 msgid "[%s] Notice of Admin Email Change"
 msgstr "[%s] הודעה על שינוי כתובת אימייל של מנהל האתר"
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:5764
+#: wp-includes/functions.php:5757
 msgid ""
 "Hi,\n"
 "\n"
@@ -864,10 +854,9 @@ msgstr "התקן והצג תצוגה מקדימה"
 msgid "Invalid URL."
 msgstr "כתובת URL לא תקינה."
 
-#. translators: %s: "Add Items" button text
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:44
-msgid "Time to add some links! Click &#8220;%s&#8221; to start putting pages, categories, and custom links in your menu. Add as many things as you&#8217;d like."
-msgstr "הגיע הזמן להוסיף כמה קישורים! לחצו על \"%s\" כדי להתחיל בהוספת דפים, קטגוריות וקישורים מותאמים לתפריט. ניתן להוסיף כמה פריטים שרוצים."
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:39
+msgid "Time to add some links! Click &#8220;Add menu items&#8221; to start putting pages, categories, and custom links in your menu. Add as many things as you&#8217;d like."
+msgstr "הגיע הזמן להוסיף כמה קישורים! לחצו על \"הוסף פריטי תפריט\" כדי להתחיל בהוספת דפים, קטגוריות וקישורים מותאמים לתפריט. ניתן להוסיף כמה פריטים שרוצים."
 
 #: wp-includes/customize/class-wp-customize-media-control.php:249
 msgid "Choose image"
@@ -966,41 +955,41 @@ msgctxt "Name for the Visual editor tab"
 msgid "Visual"
 msgstr "ויזואלי"
 
-#: wp-includes/class-wp-customize-nav-menus.php:984
+#: wp-includes/class-wp-customize-nav-menus.php:968
 msgid "Create New Menu"
 msgstr "תפריט חדש"
 
-#: wp-includes/class-wp-customize-nav-menus.php:709
+#: wp-includes/class-wp-customize-nav-menus.php:693
 msgid "New Menu"
 msgstr "תפריט חדש"
 
 #. translators: URL to the widgets panel of the customizer
-#: wp-includes/class-wp-customize-nav-menus.php:600
+#: wp-includes/class-wp-customize-nav-menus.php:584
 msgid "If your theme has widget areas, you can also add menus there. Visit the <a href=\"%s\">Widgets panel</a> and add a &#8220;Navigation Menu widget&#8221; to display a menu in a sidebar or footer."
 msgstr "אם לתבנית יש אזורי וידג'טים, ניתן להוסיף תפריטים מכאן. בקרו ב<a href=\"%s\">תפריט הוידג'טים</a> והוסיפו \"וידג'ט תפריטים\" כדי להציג תפריטים בסרגלי צד ובפוטר."
 
-#: wp-includes/class-wp-customize-nav-menus.php:436
+#: wp-includes/class-wp-customize-nav-menus.php:420
 msgid "If your theme has multiple menus, giving them clear names will help you manage them."
 msgstr "אם התבנית כוללת תפריטים מרובים, מתן שמות ברורים יעזור לנהל אותם."
 
 #. translators: %s: number of menu locations
-#: wp-includes/class-wp-customize-nav-menus.php:419
+#: wp-includes/class-wp-customize-nav-menus.php:403
 msgid "Your theme can display menus in %s location."
 msgid_plural "Your theme can display menus in %s locations."
 msgstr[0] "התבנית יכולה להציג תפריטים במיקום %s."
 msgstr[1] "התבנית יכולה להציג תפריטים ב-%s מיקומים."
 
-#: wp-includes/class-wp-customize-nav-menus.php:416
+#: wp-includes/class-wp-customize-nav-menus.php:400
 msgid "Your theme can display menus in one location."
 msgstr "התבנית יכולה להציג תפריטים במיקום אחד."
 
-#: wp-includes/class-wp-customize-manager.php:5318
+#: wp-includes/class-wp-customize-manager.php:5278
 msgid "CSS code"
 msgstr "קוד CSS"
 
 #. translators: 1: link to user profile, 2: additional link attributes, 3:
 #. accessibility text
-#: wp-includes/class-wp-customize-manager.php:5289
+#: wp-includes/class-wp-customize-manager.php:5249
 #: wp-includes/widgets/class-wp-widget-custom-html.php:299
 msgid "The edit field automatically highlights code syntax. You can disable this in your <a href=\"%1$s\" %2$s>user profile%3$s</a> to work in plain text mode."
 msgstr "שדה העריכה מדגיש באופן אוטומטי את תחביר הקוד. ניתן להשבית זאת ב<a href=\"%1$s\" %2$s>פרופיל המשתמש%3$s</a> כדי לעבוד במצב טקסט רגיל."
@@ -1009,51 +998,51 @@ msgstr "שדה העריכה מדגיש באופן אוטומטי את תחביר
 msgid "Screen reader users: when in forms mode, you may need to press the Esc key twice."
 msgstr "משתמשים הנעזרים בקוראי מסך: במצב טפסים, ייתכן שיהיה צורך ללחוץ פעמיים על המקש Esc."
 
-#: wp-includes/class-wp-customize-manager.php:5281
+#: wp-includes/class-wp-customize-manager.php:5241
 #: wp-includes/widgets/class-wp-widget-custom-html.php:312
 msgid "To move away from this area, press the Esc key followed by the Tab key."
 msgstr "כדי להתרחק מאזור זה, הקש על מקש Esc ולאחר מכן על מקש Tab."
 
-#: wp-includes/class-wp-customize-manager.php:5280
+#: wp-includes/class-wp-customize-manager.php:5240
 #: wp-includes/widgets/class-wp-widget-custom-html.php:311
 msgid "In the editing area, the Tab key enters a tab character."
 msgstr "באזור העריכה, המקש Tab מוסיף תו Tab."
 
-#: wp-includes/class-wp-customize-manager.php:5278
+#: wp-includes/class-wp-customize-manager.php:5238
 #: wp-includes/widgets/class-wp-widget-custom-html.php:309
 msgid "When using a keyboard to navigate:"
 msgstr "כאשר משתמשים במקשים כדי לנווט:"
 
-#: wp-includes/class-wp-customize-manager.php:5268
+#: wp-includes/class-wp-customize-manager.php:5228
 msgid "Add your own CSS code here to customize the appearance and layout of your site."
 msgstr "הוסף קוד CSS משלך כדי להתאים אישית את המראה והפריסה של האתר שלך."
 
-#: wp-includes/class-wp-customize-manager.php:5233
+#: wp-includes/class-wp-customize-manager.php:5193
 msgid "Your homepage displays"
 msgstr "תצוגת עמוד הבית"
 
-#: wp-includes/class-wp-customize-manager.php:5222
+#: wp-includes/class-wp-customize-manager.php:5182
 msgid "You can choose what&#8217;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed."
 msgstr "ניתן לבחור מה מוצג בדף הבית של האתר. זו יכולה להיות רשימה כרונולוגית של פוסטים (הבלוג הקלאסי), או עמוד סטטי קבוע. כדי להגדיר עמוד ראשי סטטי, תחילה יש ליצור שני דפים, אחד יהפוך לדף הבית, והשני יציג  את רשימת הפוסטים."
 
-#: wp-includes/class-wp-customize-manager.php:5220
+#: wp-includes/class-wp-customize-manager.php:5180
 msgid "Homepage Settings"
 msgstr "הגדרות עמוד הבית"
 
 #. translators: %s: site icon size in pixels
-#: wp-includes/class-wp-customize-manager.php:4914
+#: wp-includes/class-wp-customize-manager.php:4874
 msgid "Site Icons should be square and at least %s pixels."
 msgstr "סמלי האתר צריכים להיות מרובעים, בגודל מינימאלי של %s פיקסלים."
 
-#: wp-includes/class-wp-customize-manager.php:4912
+#: wp-includes/class-wp-customize-manager.php:4872
 msgid "Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. Upload one here!"
 msgstr "סמלי האתר מוצגים בכרטיסיות הדפדפן, בסרגל הסימניות, ובתוך יישומי וורדפרס ניידים. העלה אחד כאן!"
 
-#: wp-includes/class-wp-customize-manager.php:4844
+#: wp-includes/class-wp-customize-manager.php:4804
 msgid "WordPress.org themes"
 msgstr "תבניות WordPress.org"
 
-#: wp-includes/class-wp-customize-manager.php:4835
+#: wp-includes/class-wp-customize-manager.php:4795
 msgid "Installed themes"
 msgstr "תבניות מותקנות"
 
@@ -1061,58 +1050,58 @@ msgstr "תבניות מותקנות"
 msgid "Publish Settings"
 msgstr "פרסם הגדרות"
 
-#: wp-includes/class-wp-customize-manager.php:4202
+#: wp-includes/class-wp-customize-manager.php:4165
 msgid "Copied"
 msgstr "הועתק"
 
-#: wp-includes/class-wp-customize-manager.php:4196
+#: wp-includes/class-wp-customize-manager.php:4159
 msgid "Preview Link"
 msgstr "קישור לתצוגה מקדימה"
 
-#: wp-includes/class-wp-customize-manager.php:4193
+#: wp-includes/class-wp-customize-manager.php:4156
 msgid "See how changes would look live on your website, and share the preview with people who can't access the Customizer."
 msgstr "ראו כיצד השינויים ייראו באתר חי, ושתפו את התצוגה המקדימה עם אנשים שאינם יכולים לגשת למסך ההתאמה האישית."
 
-#: wp-includes/class-wp-customize-manager.php:4191
+#: wp-includes/class-wp-customize-manager.php:4154
 msgid "Share Preview Link"
 msgstr "שתף קישור תצוגה מקדימה"
 
-#: wp-includes/class-wp-customize-manager.php:3042
+#: wp-includes/class-wp-customize-manager.php:3035
 msgid "Changes trashed successfully."
 msgstr "שינויים נמחקו בהצלחה."
 
-#: wp-includes/class-wp-customize-manager.php:3027
+#: wp-includes/class-wp-customize-manager.php:3020
 msgid "Changes have already been trashed."
 msgstr "השינויים כבר הועברו לפח."
 
-#: wp-includes/class-wp-customize-manager.php:3021
-#: wp-includes/class-wp-customize-manager.php:3037
+#: wp-includes/class-wp-customize-manager.php:3014
+#: wp-includes/class-wp-customize-manager.php:3030
 msgid "Unable to trash changes."
 msgstr "לא ניתן להעביר לפח שינויים."
 
-#: wp-includes/class-wp-customize-manager.php:3012
+#: wp-includes/class-wp-customize-manager.php:3005
 msgid "No changes saved yet, so there is nothing to trash."
 msgstr "עדיין לא נשמרו שינויים, לכן לא ניתן להעביר דבר לפח."
 
-#: wp-includes/class-wp-customize-manager.php:3004
+#: wp-includes/class-wp-customize-manager.php:2997
 msgid "There was an authentication problem. Please reload and try again."
 msgstr "היתה בעיית אימות. יש לטעון מחדש ולנסות שנית."
 
 #. translators: %s: number of invalid settings
-#: wp-includes/class-wp-customize-manager.php:2707
+#: wp-includes/class-wp-customize-manager.php:2702
 #: wp-includes/script-loader.php:593 wp-includes/script-loader.php:595
 msgid "Unable to save due to %s invalid setting."
 msgid_plural "Unable to save due to %s invalid settings."
 msgstr[0] "לא ניתן לשמור עקב הגדרה %s לא חוקית."
 msgstr[1] "לא ניתן לשמור עקב %s הגדרות לא חוקית."
 
-#: wp-includes/class-wp-customize-manager.php:2593
-#: wp-includes/class-wp-customize-manager.php:2608
+#: wp-includes/class-wp-customize-manager.php:2588
+#: wp-includes/class-wp-customize-manager.php:2603
 #: wp-includes/script-loader.php:558
 msgid "You must supply a future date to schedule."
 msgstr "יש לספק תאריך עתידי לתזמון."
 
-#: wp-includes/class-wp-customize-manager.php:2570
+#: wp-includes/class-wp-customize-manager.php:2565
 msgid "The previous set of changes has already been published. Please try saving your current set of changes again."
 msgstr "השינויים הקודמים כבר פורסמו. יש לנסות לשמור שוב את השינויים."
 
@@ -1124,31 +1113,31 @@ msgstr "ערוך משתמש"
 msgid "View User"
 msgstr "הצג משתמש"
 
-#: wp-includes/widgets/class-wp-widget-text.php:481
+#: wp-includes/widgets/class-wp-widget-text.php:460
 msgid "This widget may have contained code that may work better in the &#8220;Custom HTML&#8221; widget. If you haven&#8217;t yet, how about trying that widget instead?"
 msgstr "וידג'ט זה יכול לכלול קוד שעשוי לעבוד טוב יותר באמצעות \"וידג'ט HTML\". מומלץ לנסות את הוידג'ט השני."
 
-#: wp-includes/widgets/class-wp-widget-text.php:534
+#: wp-includes/widgets/class-wp-widget-text.php:513
 msgid "Hey there, looks like you just pasted HTML into the &#8220;Visual&#8221; tab of the Text widget. You may want to paste your code into the &#8220;Text&#8221; tab instead. Alternately, try out the new &#8220;Custom HTML&#8221; widget!"
 msgstr "נראה שהדבקת קוד HTML לטאב של עורך הויזואלי בוידג'ט של הטקסט. יתכן שתרצה להדביק את הקוד לטאב של ה-HTML או לחליפין להשתמש ב-\"וידג'ט HTML\"."
 
-#: wp-includes/widgets/class-wp-widget-text.php:533
+#: wp-includes/widgets/class-wp-widget-text.php:512
 msgid "Did you just paste HTML?"
 msgstr "האם הדבקת HTML?"
 
-#: wp-includes/widgets/class-wp-widget-text.php:518
+#: wp-includes/widgets/class-wp-widget-text.php:497
 msgid "Did you know there is a &#8220;Custom HTML&#8221; widget now? You can find it by scanning the list of available widgets on this screen. Check it out to add some custom code to your site!"
 msgstr "האם שמעת שיש עכשיו \"וידג'ט HTML\"? ניתן למצוא אותו ברשימת הוידג'טים הזמינים. ניתן להשתמש בו כדי להטמיע קוד באתר!"
 
-#: wp-includes/widgets/class-wp-widget-text.php:516
+#: wp-includes/widgets/class-wp-widget-text.php:495
 msgid "Did you know there is a &#8220;Custom HTML&#8221; widget now? You can find it by pressing the &#8220;<a class=\"add-widget\" href=\"#\">Add a Widget</a>&#8221; button and searching for &#8220;HTML&#8221;. Check it out to add some custom code to your site!"
 msgstr "הידעת שעכשיו יש \"וידג'ט HTML\"? ניתן למצוא אותו ברשימת הוידג'טים הזמינים. ניתן להשתמש בו על ידי לחיצה על הכפתור <a class=\"add-widget\" href=\"#\">הוספת וידג'ט</a> וחיפוש \"וידג'ט HTML\". ניתן להשתמש בו כדי להטמיע קוד באתר!"
 
-#: wp-includes/widgets/class-wp-widget-text.php:514
+#: wp-includes/widgets/class-wp-widget-text.php:493
 msgid "New Custom HTML Widget"
 msgstr "וידג'ט HTML חדש"
 
-#: wp-includes/widgets/class-wp-widget-text.php:479
+#: wp-includes/widgets/class-wp-widget-text.php:458
 msgid "This widget may contain code that may work better in the &#8220;Custom HTML&#8221; widget. How about trying that widget instead?"
 msgstr "וידג'ט זה יכול לכלול קוד שעשוי לעבוד טוב יותר באמצעות \"וידג'ט HTML\". מומלץ לנסות את הוידג'ט השני."
 
@@ -2290,7 +2279,7 @@ msgstr "הסתר פקדים"
 msgid "Document Preview"
 msgstr "תצוגת מסמך"
 
-#: wp-includes/class-wp-customize-manager.php:5003
+#: wp-includes/class-wp-customize-manager.php:4963
 msgid "Header Media"
 msgstr "כותרת מדיה"
 
@@ -2324,7 +2313,7 @@ msgstr "כיתוב HTML של התמונה, ששונה לצורך תצוגה."
 msgid "Caption for the attachment, as it exists in the database."
 msgstr "הכיתוב של התמונה, כפי שהוא מופיע במסד הנתונים."
 
-#: wp-includes/class-wp-customize-manager.php:5665
+#: wp-includes/class-wp-customize-manager.php:5625
 msgid "Please enter a valid YouTube URL."
 msgstr "יש להזין קישור יוטיוב חוקי."
 
@@ -2361,7 +2350,7 @@ msgstr "לא ניתן להעביר פוסטים לפח. יש להגדיר  '%s' 
 msgid "The comment does not support trashing. Set '%s' to delete."
 msgstr "לא ניתן להעביר תגובות לפח. יש להגדיר  '%s' כדי למחוק."
 
-#: wp-includes/class-wp-customize-manager.php:5088
+#: wp-includes/class-wp-customize-manager.php:5048
 msgid "Or, enter a YouTube URL:"
 msgstr "או, הזן קישור יוטיוב:"
 
@@ -2395,11 +2384,11 @@ msgstr "הגבלת תוצאות לפוסטים עם מזהה מסויים אחד
 msgid "Comment is required."
 msgstr "תגובה היא חובה."
 
-#: wp-includes/class-wp-customize-nav-menus.php:811
+#: wp-includes/class-wp-customize-nav-menus.php:795
 msgid "Status is forbidden"
 msgstr "סטטוס אינו חוקי"
 
-#: wp-includes/class-wp-customize-nav-menus.php:808
+#: wp-includes/class-wp-customize-nav-menus.php:792
 msgid "Empty title"
 msgstr "כותרת ריקה"
 
@@ -2415,7 +2404,7 @@ msgstr "פריט זה סגור לטרקבאקים."
 msgid "I really need an ID for this to work."
 msgstr "יש להזין ID כדי שזה יעבוד."
 
-#: wp-includes/class-wp-customize-manager.php:5248
+#: wp-includes/class-wp-customize-manager.php:5208
 msgid "Homepage"
 msgstr "ראשי"
 
@@ -3421,131 +3410,131 @@ msgid "Number of widgets found: %d"
 msgstr "מספר הוידג'טים שנמצאו: %d"
 
 #. translators: %1$s is the post type name and %2$s is the error message.
-#: wp-includes/class-wp-customize-nav-menus.php:902
+#: wp-includes/class-wp-customize-nav-menus.php:886
 msgid "%1$s could not be created: %2$s"
 msgstr "לא ניתן ליצור %1$s, שגיאה: %2$s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:897
+#: wp-includes/class-wp-customize-nav-menus.php:881
 msgid "Post"
 msgstr "פוסט"
 
 #. translators: 1: .mp4, 2: .mov
-#: wp-includes/class-wp-customize-manager.php:5641
+#: wp-includes/class-wp-customize-manager.php:5601
 msgid "Only %1$s or %2$s files may be used for header video. Please convert your video file and try again, or, upload your video to YouTube and link it with the option below."
 msgstr "בכותרות וידאו ניתן להשתמש רק בקבצי %1$s או %2$s. נא להמיר את קובץ הוידאו ולנסות שוב, או להעלות את הוידאו ליוטיוב ולקשר אותו באמצעות אחת מהאפשרויות הבאות."
 
-#: wp-includes/class-wp-customize-manager.php:5635
+#: wp-includes/class-wp-customize-manager.php:5595
 msgid "This video file is too large to use as a header video. Try a shorter video or optimize the compression settings and re-upload a file that is less than 8MB. Or, upload your video to YouTube and link it with the option below."
 msgstr "קובץ וידאו זה גדול מכדי להשתמש בו כסרטון כותרת. יש לנסות להשתמש בוידאו קצר יותר או לייעל את הגדרות הדחיסה ולהעלות קובץ חדש שאינו עולה על 8MB. לחליפין, ניתן להעלות את הוידאו ליוטיוב ולקשר אותו עם אחת מהאפשרויות הבאות."
 
-#: wp-includes/class-wp-customize-manager.php:5595
+#: wp-includes/class-wp-customize-manager.php:5555
 msgid "Unrecognized background setting."
 msgstr "הגדרות רקע לא מוכרות."
 
-#: wp-includes/class-wp-customize-manager.php:5586
-#: wp-includes/class-wp-customize-manager.php:5590
+#: wp-includes/class-wp-customize-manager.php:5546
+#: wp-includes/class-wp-customize-manager.php:5550
 msgid "Invalid value for background size."
 msgstr "ערך לא תקין עבור גודל רקע."
 
-#: wp-includes/class-wp-customize-manager.php:5582
+#: wp-includes/class-wp-customize-manager.php:5542
 msgid "Invalid value for background position Y."
 msgstr "ערך לא תקין עבור מיקום Y של הרקע."
 
-#: wp-includes/class-wp-customize-manager.php:5578
+#: wp-includes/class-wp-customize-manager.php:5538
 msgid "Invalid value for background position X."
 msgstr "ערך לא תקין עבור מיקום X של הרקע."
 
-#: wp-includes/class-wp-customize-manager.php:5574
+#: wp-includes/class-wp-customize-manager.php:5534
 msgid "Invalid value for background attachment."
 msgstr "ערך לא תקין עבור background attachment."
 
-#: wp-includes/class-wp-customize-manager.php:5570
+#: wp-includes/class-wp-customize-manager.php:5530
 msgid "Invalid value for background repeat."
 msgstr "ערך לא תקין עבור חזרת רקע."
 
 #. translators: accessibility text
-#: wp-includes/class-wp-customize-manager.php:4199
-#: wp-includes/class-wp-customize-manager.php:5274
-#: wp-includes/class-wp-customize-manager.php:5294
+#: wp-includes/class-wp-customize-manager.php:4162
+#: wp-includes/class-wp-customize-manager.php:5234
+#: wp-includes/class-wp-customize-manager.php:5254
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:56
 #: wp-includes/widgets/class-wp-widget-custom-html.php:304
 msgid "(opens in a new window)"
 msgstr "(נפתח בעמוד חדש)"
 
-#: wp-includes/class-wp-customize-manager.php:5272
+#: wp-includes/class-wp-customize-manager.php:5232
 msgid "Learn more about CSS"
 msgstr "מידע נוסף על CSS"
 
-#: wp-includes/class-wp-customize-manager.php:5305
+#: wp-includes/class-wp-customize-manager.php:5265
 msgid "Additional CSS"
 msgstr "CSS מותאם"
 
-#: wp-includes/class-wp-customize-manager.php:5199
+#: wp-includes/class-wp-customize-manager.php:5159
 msgid "Scroll with Page"
 msgstr "גלול עם העמוד"
 
-#: wp-includes/class-wp-customize-manager.php:5187
+#: wp-includes/class-wp-customize-manager.php:5147
 msgid "Repeat Background Image"
 msgstr "חזרה על תמונת רקע"
 
-#: wp-includes/class-wp-customize-manager.php:5174
+#: wp-includes/class-wp-customize-manager.php:5134
 msgid "Original"
 msgstr "מקורי"
 
-#: wp-includes/class-wp-customize-manager.php:5170
+#: wp-includes/class-wp-customize-manager.php:5130
 msgid "Image Size"
 msgstr "גודל תמונה"
 
-#: wp-includes/class-wp-customize-manager.php:5155
+#: wp-includes/class-wp-customize-manager.php:5115
 #: wp-includes/customize/class-wp-customize-background-position-control.php:66
 msgid "Image Position"
 msgstr "מיקום תמונה"
 
-#: wp-includes/class-wp-customize-manager.php:5138
+#: wp-includes/class-wp-customize-manager.php:5098
 msgctxt "Custom Preset"
 msgid "Custom"
 msgstr "מותאם"
 
-#: wp-includes/class-wp-customize-manager.php:5137
+#: wp-includes/class-wp-customize-manager.php:5097
 msgctxt "Repeat Image"
 msgid "Repeat"
 msgstr "חזרה"
 
-#: wp-includes/class-wp-customize-manager.php:5136
-#: wp-includes/class-wp-customize-manager.php:5175
+#: wp-includes/class-wp-customize-manager.php:5096
+#: wp-includes/class-wp-customize-manager.php:5135
 msgid "Fit to Screen"
 msgstr "התאם למסך"
 
-#: wp-includes/class-wp-customize-manager.php:5134
+#: wp-includes/class-wp-customize-manager.php:5094
 msgctxt "Default Preset"
 msgid "Default"
 msgstr "ברירת מחדל"
 
-#: wp-includes/class-wp-customize-manager.php:5130
+#: wp-includes/class-wp-customize-manager.php:5090
 msgctxt "Background Preset"
 msgid "Preset"
 msgstr "קבוע מראש"
 
-#: wp-includes/class-wp-customize-manager.php:5078
+#: wp-includes/class-wp-customize-manager.php:5038
 msgid "Header Video"
 msgstr "כותרת וידאו"
 
 #. translators: 1: .mp4, 2: header height in pixels
-#: wp-includes/class-wp-customize-manager.php:5025
+#: wp-includes/class-wp-customize-manager.php:4985
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a height of %2$s pixels."
 msgstr "יש להעלות וידאו בפורמט %1$s ולמזער את גודל הקובץ לקבלת התוצאות הטובות ביותר. התבנית ממליצה על גובה של %2$s פיקסלים."
 
 #. translators: 1: .mp4, 2: header width in pixels
-#: wp-includes/class-wp-customize-manager.php:5018
+#: wp-includes/class-wp-customize-manager.php:4978
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a width of %2$s pixels."
 msgstr "יש להעלות וידאו בפורמט %1$s ולמזער את גודל הקובץ לקבלת התוצאות הטובות ביותר. התבנית ממליצה על רוחב של %2$s פיקסלים."
 
 #. translators: 1: .mp4, 2: header size in pixels
-#: wp-includes/class-wp-customize-manager.php:5011
+#: wp-includes/class-wp-customize-manager.php:4971
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends dimensions of %2$s pixels."
 msgstr "יש להעלות וידאו בפורמט %1$s ולמזער את גודל הקובץ לקבלת התוצאות הטובות ביותר. התבנית ממליצה על מימדים של %2$s פיקסלים."
 
-#: wp-includes/class-wp-customize-manager.php:5004
+#: wp-includes/class-wp-customize-manager.php:4964
 msgid "If you add a video, the image will be used as a fallback while the video loads."
 msgstr "אם משתמשים בוידאו, התמונה תוצג בזמן העלאת הוידאו."
 
@@ -3557,43 +3546,43 @@ msgid "Search themes&hellip;"
 msgstr "חיפוש תבניות&hellip;"
 
 #. translators: %s: theme name
-#: wp-includes/class-wp-customize-manager.php:4710
+#: wp-includes/class-wp-customize-manager.php:4670
 msgid "Showing details for theme: %s"
 msgstr "מציג פרטים עבור תבנית: %s"
 
 #. translators: %d: number of themes being displayed, which cannot currently
 #. consider singular vs. plural forms
-#: wp-includes/class-wp-customize-manager.php:4708
+#: wp-includes/class-wp-customize-manager.php:4668
 msgid "Displaying %d themes"
 msgstr "מציג %d תבניות"
 
 #. translators: %d: number of theme search results, which cannot currently
 #. consider singular vs. plural forms
-#: wp-includes/class-wp-customize-manager.php:4706
+#: wp-includes/class-wp-customize-manager.php:4666
 msgid "%d themes found"
 msgstr "נמצאו %d תבניות"
 
-#: wp-includes/class-wp-customize-manager.php:4704
+#: wp-includes/class-wp-customize-manager.php:4664
 msgid "Are you sure you want to delete this theme?"
 msgstr "האם אתה בטוח שברצונך למחוק את התבנית זו?"
 
-#: wp-includes/class-wp-customize-manager.php:2277
+#: wp-includes/class-wp-customize-manager.php:2272
 msgid "Unauthorized to modify setting due to capability."
 msgstr "אין לך הרשאות לשנות את ההגדרה."
 
-#: wp-includes/class-wp-customize-manager.php:2272
+#: wp-includes/class-wp-customize-manager.php:2267
 msgid "Setting does not exist or is unrecognized."
 msgstr "הגדרה לא מוכרת או לא קיימת."
 
-#: wp-includes/class-wp-customize-manager.php:2065
+#: wp-includes/class-wp-customize-manager.php:2060
 msgid "This form is not live-previewable."
 msgstr "טופס זה אינו מוצג בתצוגה מקדימה."
 
-#: wp-includes/class-wp-customize-manager.php:2064
+#: wp-includes/class-wp-customize-manager.php:2059
 msgid "This link is not live-previewable."
 msgstr "קישור זה אינו מוצג בתצוגה מקדימה."
 
-#: wp-includes/class-wp-customize-manager.php:1849
+#: wp-includes/class-wp-customize-manager.php:1844
 msgid "Unauthorized. You may remove the customize_messenger_channel param to preview as frontend."
 msgstr "לא מורשה. יש להסיר את הפרמטר customize_messenger_channel כדי לראות תצוגה מקדימה."
 
@@ -3971,7 +3960,7 @@ msgstr "אין לך הרשאות להוסיף קטגוריה."
 msgid "Sorry, you are not allowed to list users."
 msgstr "אין לך הרשאות לראות משתמשים."
 
-#: wp-includes/class-wp-customize-manager.php:2300
+#: wp-includes/class-wp-customize-manager.php:2295
 #: wp-includes/class-wp-customize-setting.php:579
 #: wp-includes/script-loader.php:606
 msgid "Invalid value."
@@ -4049,7 +4038,7 @@ msgstr "הקבוע %1$s כבר <strong>לא קיים</strong>. יש להשתמש
 
 #. translators: 1: panel id, 2: link to 'customize_loaded_components' filter
 #. reference
-#: wp-includes/class-wp-customize-manager.php:3760
+#: wp-includes/class-wp-customize-manager.php:3737
 msgid "Removing %1$s manually will cause PHP warnings. Use the %2$s filter instead."
 msgstr "הסרה ידנית של %1$s תיצור אזהרות PHP. במקום זאת יש להשתמש בפילטר %2$s."
 
@@ -4159,20 +4148,20 @@ msgstr "סגור חלון"
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "המתודה constructor ב-%1$s ב-%2$s <strong>לא קיימת</strong> מגרסה %3$s! השתמשו ב-%4$s במקום."
 
-#: wp-includes/class-wp-customize-manager.php:4944
+#: wp-includes/class-wp-customize-manager.php:4904
 msgid "Choose logo"
 msgstr "בחר לוגו"
 
-#: wp-includes/class-wp-customize-manager.php:4942
+#: wp-includes/class-wp-customize-manager.php:4902
 msgid "No logo selected"
 msgstr "לא נבחר לוגו"
 
-#: wp-includes/class-wp-customize-manager.php:4939
+#: wp-includes/class-wp-customize-manager.php:4899
 msgid "Change logo"
 msgstr "החלף לוגו"
 
-#: wp-includes/class-wp-customize-manager.php:4938
-#: wp-includes/class-wp-customize-manager.php:4943
+#: wp-includes/class-wp-customize-manager.php:4898
+#: wp-includes/class-wp-customize-manager.php:4903
 msgid "Select logo"
 msgstr "בחר לוגו"
 
@@ -4234,28 +4223,28 @@ msgstr "סוג אובייקט לא תקין"
 msgid "Paste URL or type to search"
 msgstr "הדבק כתובת URL או התחל לכתוב כדי לחפש"
 
-#: wp-includes/class-wp-customize-manager.php:4930
+#: wp-includes/class-wp-customize-manager.php:4890
 msgid "Logo"
 msgstr "לוגו"
 
-#: wp-includes/class-wp-customize-manager.php:4896
-#: wp-includes/class-wp-customize-manager.php:4974
+#: wp-includes/class-wp-customize-manager.php:4856
+#: wp-includes/class-wp-customize-manager.php:4934
 msgid "Display Site Title and Tagline"
 msgstr "הצג שם ותיאור אתר"
 
-#: wp-includes/class-wp-customize-manager.php:4797
+#: wp-includes/class-wp-customize-manager.php:4757
 msgid "Enter mobile preview mode"
 msgstr "תצוגת מובייל"
 
-#: wp-includes/class-wp-customize-manager.php:4794
+#: wp-includes/class-wp-customize-manager.php:4754
 msgid "Enter tablet preview mode"
 msgstr "תצוגת טאבלט"
 
-#: wp-includes/class-wp-customize-manager.php:4790
+#: wp-includes/class-wp-customize-manager.php:4750
 msgid "Enter desktop preview mode"
 msgstr "תצוגת דסקטופ"
 
-#: wp-includes/class-wp-customize-manager.php:2063
+#: wp-includes/class-wp-customize-manager.php:2058
 #: wp-includes/customize/class-wp-customize-selective-refresh.php:192
 msgid "Shift-click to edit this element."
 msgstr "ליחצו על Shift כדי לערוך רכיב."
@@ -4279,7 +4268,7 @@ msgid "(Current: %s)"
 msgstr "(נוכחי: %s)"
 
 #. translators: %s:      menu location
-#: wp-includes/class-wp-customize-nav-menus.php:432
+#: wp-includes/class-wp-customize-nav-menus.php:416
 msgctxt "menu"
 msgid "(Currently set to: %s)"
 msgstr "(מוגדר עבור: %s)"
@@ -4915,7 +4904,7 @@ msgid "Press return or enter to open this section"
 msgstr "לחץ אנטר כדי לפתוח אזור זה"
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:4372
+#: wp-includes/class-wp-customize-manager.php:4335
 msgid "Live Preview: %s"
 msgstr "תצוגה מקדימה: %s"
 
@@ -4940,7 +4929,7 @@ msgstr "לא נרשמו תכנים מסוג %1$s, לכן לא ניתן לבדו�
 msgid "%1$s is deprecated. Use %2$s instead."
 msgstr "%1$s לא קיים יותר. יש להשתמש ב-%2$s."
 
-#: wp-includes/class-wp-customize-nav-menus.php:1021
+#: wp-includes/class-wp-customize-nav-menus.php:1005
 #: wp-includes/class-wp-customize-widgets.php:811
 msgid "Clear Results"
 msgstr "ניקוי תוצאות"
@@ -4950,7 +4939,7 @@ msgid "The following formatting shortcuts are replaced when pressing Enter. Pres
 msgstr "הקיצורים הבאים יוחלפו בעיצוב אחרי לחיצה על המקש Enter. לחיצה על המקש Escape או לחצן ביטול יבטלו את השינויים."
 
 #. translators: %s: Title of a section with menu items
-#: wp-includes/class-wp-customize-nav-menus.php:1070
+#: wp-includes/class-wp-customize-nav-menus.php:1054
 msgid "Toggle section: %s"
 msgstr "הפעלת מחלקה: %s"
 
@@ -4973,7 +4962,7 @@ msgstr "עריכת פריט תפריט: %1$s (%2$s)"
 msgid "Remove Menu Item: %1$s (%2$s)"
 msgstr "מחיקת פריט תפריט: %1$s (%2$s)"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1104
+#: wp-includes/class-wp-customize-nav-menus.php:1088
 msgid "Toggle section: Custom Links"
 msgstr "הפעלת מחלקה: קישורים מותאמים"
 
@@ -4989,7 +4978,7 @@ msgstr "הסתר סיסמה"
 msgid "Show password"
 msgstr "הצג סיסמה"
 
-#: wp-includes/class-wp-customize-nav-menus.php:435
+#: wp-includes/class-wp-customize-nav-menus.php:419
 msgid "Menu Name"
 msgstr "שם התפריט"
 
@@ -5011,7 +5000,7 @@ msgstr "תצוגה מקדימה כסמל דפדפן"
 msgid "As a browser icon"
 msgstr "סמל דפדפן"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1066
+#: wp-includes/class-wp-customize-nav-menus.php:1050
 msgid "No items"
 msgstr "אין פריטים"
 
@@ -5063,16 +5052,16 @@ msgstr "הסתר תמונה"
 msgid "Hide header image"
 msgstr "הסתר תמונת כותרת"
 
-#: wp-includes/class-wp-customize-manager.php:4910
+#: wp-includes/class-wp-customize-manager.php:4870
 msgid "Site Icon"
 msgstr "סמל אתר"
 
-#: wp-includes/class-wp-customize-manager.php:4861
+#: wp-includes/class-wp-customize-manager.php:4821
 msgid "Site Identity"
 msgstr "פרטי אתר"
 
 #. translators: 1: Title of a menu item, 2: Type of a menu item
-#: wp-includes/class-wp-customize-nav-menus.php:935
+#: wp-includes/class-wp-customize-nav-menus.php:919
 msgid "Add to menu: %1$s (%2$s)"
 msgstr "הוספה לתפריט: %1$s (%2$s)"
 
@@ -5128,45 +5117,45 @@ msgstr "תבנית בתצוגה מקדימה"
 msgid "Active theme"
 msgstr "תבנית מופעלת"
 
-#: wp-includes/class-wp-customize-nav-menus.php:578
+#: wp-includes/class-wp-customize-nav-menus.php:562
 msgid "Menus can be displayed in locations defined by your theme."
 msgstr "תפריטים מוצגים במקומות מוגדרים לפי תבנית."
 
 #. translators: URL to the widgets panel of the customizer
-#: wp-includes/class-wp-customize-nav-menus.php:576
+#: wp-includes/class-wp-customize-nav-menus.php:560
 msgid "Menus can be displayed in locations defined by your theme or in <a href=\"%s\">widget areas</a> by adding a &#8220;Navigation Menu&#8221; widget."
 msgstr "ניתן להציג תפריטים במיקומים המוגדרים על ידי התבנית או ב<a href=\"%s\">וידג'טים</a>."
 
-#: wp-includes/class-wp-customize-nav-menus.php:455
+#: wp-includes/class-wp-customize-nav-menus.php:439
 #: wp-includes/class-wp-customize-widgets.php:762
 msgid "Reorder mode closed"
 msgstr "מצב סידור מחדש נסגר"
 
-#: wp-includes/class-wp-customize-nav-menus.php:454
+#: wp-includes/class-wp-customize-nav-menus.php:438
 #: wp-includes/class-wp-customize-widgets.php:761
 msgid "Reorder mode enabled"
 msgstr "מצב סידור מחדש מופעל"
 
-#: wp-includes/class-wp-customize-nav-menus.php:428
+#: wp-includes/class-wp-customize-nav-menus.php:412
 #: wp-includes/customize/class-wp-customize-nav-menu-setting.php:430
 msgctxt "Missing menu name."
 msgid "(unnamed)"
 msgstr "(ללא שם)"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:58
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:49
 msgid "When in reorder mode, additional controls to reorder menu items will be available in the items list above."
 msgstr "במצב סידור מחדש, יוצגו אפשרויות חדשות ברשימה למעלה לסידור מחדש של פריטי תפריט."
 
-#: wp-includes/class-wp-customize-nav-menus.php:457
+#: wp-includes/class-wp-customize-nav-menus.php:441
 msgid "Close reorder mode"
 msgstr "סגירת מצב סידור מחדש"
 
-#: wp-includes/class-wp-customize-nav-menus.php:456
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:53
+#: wp-includes/class-wp-customize-nav-menus.php:440
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:44
 msgid "Reorder menu items"
 msgstr "סידור מחדש לתפריט"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:50
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:41
 msgid "Add or remove menu items"
 msgstr "הוסף או הסר פריטי תפריט"
 
@@ -5340,8 +5329,8 @@ msgid "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
 msgstr "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:258
-#: wp-includes/widgets/class-wp-widget-text.php:485
-#: wp-includes/widgets/class-wp-widget-text.php:546
+#: wp-includes/widgets/class-wp-widget-text.php:464
+#: wp-includes/widgets/class-wp-widget-text.php:525
 msgid "Content:"
 msgstr "תוכן:"
 
@@ -5386,163 +5375,162 @@ msgstr "התאמה אישית"
 msgid "Menu Options"
 msgstr "אפשרויות תפריט"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1120
+#: wp-includes/class-wp-customize-nav-menus.php:1104
 msgid "Add to Menu"
 msgstr "הוספה לתפריט"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1102
+#: wp-includes/class-wp-customize-nav-menus.php:1086
 msgid "Custom Links"
 msgstr "קישורים מותאמים"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1017
+#: wp-includes/class-wp-customize-nav-menus.php:1001
 #: wp-includes/class-wp-customize-widgets.php:812
 #: wp-includes/customize/class-wp-customize-themes-section.php:119
 #: wp-includes/customize/class-wp-customize-themes-section.php:134
 msgid "The search results will be updated as you type."
 msgstr "תוצאות החיפוש יעודכנו במהלך ההקלדה."
 
-#: wp-includes/class-wp-customize-nav-menus.php:1016
+#: wp-includes/class-wp-customize-nav-menus.php:1000
 msgid "Search menu items&hellip;"
 msgstr "חיפוש פריטים בתפריט&hellip;"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1015
+#: wp-includes/class-wp-customize-nav-menus.php:999
 msgid "Search Menu Items"
 msgstr "חיפוש פריטי תפריט"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1010
+#: wp-includes/class-wp-customize-nav-menus.php:994
 msgid "Add Menu Items"
 msgstr "הוספת תפריטים"
 
 #. translators: &#9656; is the unicode right-pointing triangle, and %s is the
 #. section title in the Customizer
-#: wp-includes/class-wp-customize-nav-menus.php:446
-#: wp-includes/class-wp-customize-nav-menus.php:1007
+#: wp-includes/class-wp-customize-nav-menus.php:430
+#: wp-includes/class-wp-customize-nav-menus.php:991
 #: wp-includes/class-wp-customize-section.php:230
 #: wp-includes/class-wp-customize-widgets.php:802
 msgid "Customizing &#9656; %s"
 msgstr "התאמת &#9656; %s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:951
+#: wp-includes/class-wp-customize-nav-menus.php:935
 msgid "Move one level down"
 msgstr "העבר רמה אחת למטה"
 
-#: wp-includes/class-wp-customize-nav-menus.php:950
+#: wp-includes/class-wp-customize-nav-menus.php:934
 msgid "Move one level up"
 msgstr "העבר רמה אחת למעלה"
 
-#: wp-includes/class-wp-customize-nav-menus.php:433
+#: wp-includes/class-wp-customize-nav-menus.php:417
 msgid "Menu Locations"
 msgstr "מיקום תפריט"
 
 #. translators: %s: number of menu locations
-#: wp-includes/class-wp-customize-nav-menus.php:595
+#: wp-includes/class-wp-customize-nav-menus.php:579
 msgid "Your theme can display menus in %s location. Select which menu you would like to use."
 msgid_plural "Your theme can display menus in %s locations. Select which menu appears in each location."
 msgstr[0] "לתבנית מיקום תפריט %s. יש לבחור באיזה תפריט להשתמש."
 msgstr[1] "לתבנית %s מיקומי תפריט. יש לבחור איזה תפריט יוצג באיזה מיקום."
 
-#: wp-includes/class-wp-customize-nav-menus.php:573
+#: wp-includes/class-wp-customize-nav-menus.php:557
 msgid "This panel is used for managing navigation menus for content you have already published on your site. You can create menus and add items for existing content such as pages, posts, categories, tags, formats, or custom links."
 msgstr "פאנל זה משמש לניהול תפריט לתוכן שכבר פורסם. ניתן ליצור תפריט חדש ולהוסיף אליו תוכן קיים כגון עמודים, פוסטים, קטגוריות, תגיות או קישורים מותאמים."
 
 #. translators: 1: item name, 2: item position, 3: parent item name
-#: wp-includes/class-wp-customize-nav-menus.php:488
+#: wp-includes/class-wp-customize-nav-menus.php:472
 msgid "%1$s. Sub item number %2$d under %3$s."
 msgstr "%1$s. תת פריט מספר %2$d מתחת %3$s."
 
 #. translators: 1: item name, 2: item position, 3: total number of items
-#: wp-includes/class-wp-customize-nav-menus.php:486
+#: wp-includes/class-wp-customize-nav-menus.php:470
 msgid "%1$s. Menu item %2$d of %3$d."
 msgstr "%1$s. פריט %2$d של %3$d."
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:484
+#: wp-includes/class-wp-customize-nav-menus.php:468
 msgid "Out from under %s"
 msgstr "להוציא מ-%s"
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:482
+#: wp-includes/class-wp-customize-nav-menus.php:466
 msgid "Under %s"
 msgstr "מתחת %s"
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:480
+#: wp-includes/class-wp-customize-nav-menus.php:464
 msgid "Move out from under %s"
 msgstr "להוציא מתחת %s"
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:478
+#: wp-includes/class-wp-customize-nav-menus.php:462
 msgid "Move under %s"
 msgstr "להעביר מתחת %s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:476
+#: wp-includes/class-wp-customize-nav-menus.php:460
 msgid "Move to the top"
 msgstr "להעביר להתחלה"
 
-#: wp-includes/class-wp-customize-nav-menus.php:475
+#: wp-includes/class-wp-customize-nav-menus.php:459
 msgid "Move down one"
 msgstr "להעביר אחד למטה"
 
-#: wp-includes/class-wp-customize-nav-menus.php:474
+#: wp-includes/class-wp-customize-nav-menus.php:458
 msgid "Move up one"
 msgstr "להעביר אחד למעלה"
 
-#: wp-includes/class-wp-customize-nav-menus.php:453
+#: wp-includes/class-wp-customize-nav-menus.php:437
 msgid "Loading more results... please wait."
 msgstr "טוען תוצאות נוספות... נא להמתין."
 
-#: wp-includes/class-wp-customize-nav-menus.php:452
+#: wp-includes/class-wp-customize-nav-menus.php:436
 msgid "Additional items found: %d"
 msgstr "פריטים נוספים שנמצאו: %d"
 
-#: wp-includes/class-wp-customize-nav-menus.php:451
+#: wp-includes/class-wp-customize-nav-menus.php:435
 msgid "Number of items found: %d"
 msgstr "מספר פריטים שנמצאו: %d"
 
 #. translators: %s: title of menu item in draft status
-#: wp-includes/class-wp-customize-nav-menus.php:450
+#: wp-includes/class-wp-customize-nav-menus.php:434
 msgid "%s (Pending)"
 msgstr "%s (בהמתנה)"
 
 #. translators: %s: title of menu item which is invalid
-#: wp-includes/class-wp-customize-nav-menus.php:448
+#: wp-includes/class-wp-customize-nav-menus.php:432
 msgid "%s (Invalid)"
 msgstr "%s (שגוי)"
 
-#: wp-includes/class-wp-customize-nav-menus.php:444
+#: wp-includes/class-wp-customize-nav-menus.php:428
 msgid "Menu item is now a sub-item"
 msgstr "הפריט עכשיו תת-פריט"
 
-#: wp-includes/class-wp-customize-nav-menus.php:443
+#: wp-includes/class-wp-customize-nav-menus.php:427
 msgid "Menu item moved out of submenu"
 msgstr "פריט בתפריט הועבר מחוץ לתפריט המשנה"
 
-#: wp-includes/class-wp-customize-nav-menus.php:442
+#: wp-includes/class-wp-customize-nav-menus.php:426
 msgid "Menu item moved down"
 msgstr "פריט בתפריט הועבר למטה"
 
-#: wp-includes/class-wp-customize-nav-menus.php:441
+#: wp-includes/class-wp-customize-nav-menus.php:425
 msgid "Menu item moved up"
 msgstr "פריט בתפריט הועבר למעלה"
 
-#: wp-includes/class-wp-customize-nav-menus.php:440
+#: wp-includes/class-wp-customize-nav-menus.php:424
 msgid "Menu deleted"
 msgstr "תפריט נמחק"
 
-#: wp-includes/class-wp-customize-nav-menus.php:439
+#: wp-includes/class-wp-customize-nav-menus.php:423
 msgid "Menu created"
 msgstr "נוצר תפריט"
 
-#: wp-includes/class-wp-customize-nav-menus.php:438
+#: wp-includes/class-wp-customize-nav-menus.php:422
 msgid "Menu item deleted"
 msgstr "פריט תפריט נמחק"
 
-#: wp-includes/class-wp-customize-nav-menus.php:437
+#: wp-includes/class-wp-customize-nav-menus.php:421
 msgid "Menu item added"
 msgstr "פריט תפריט התווסף"
 
 #: wp-includes/class-wp-customize-nav-menus.php:153
-#: wp-includes/class-wp-customize-nav-menus.php:375
 msgctxt "nav menu home label"
 msgid "Home"
 msgstr "ראשי"
@@ -5587,15 +5575,15 @@ msgstr "כותרת"
 msgid "Automatically add new top-level pages to this menu"
 msgstr "הוסף באופן אוטומטי דפי-אב לתפריט זה"
 
-#: wp-includes/class-wp-customize-nav-menus.php:433
+#: wp-includes/class-wp-customize-nav-menus.php:417
 msgid "Menu Location"
 msgstr "מיקום תפריט"
 
-#: wp-includes/class-wp-customize-nav-menus.php:960
+#: wp-includes/class-wp-customize-nav-menus.php:944
 msgid "Delete Menu"
 msgstr "מחיקת תפריט"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:38
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:42
 msgid "Add Items"
 msgstr "הוספת פריט"
 
@@ -5782,8 +5770,7 @@ msgid "<strong>Database tables are missing.</strong> This means that MySQL is no
 msgstr "<strong>חסרות טבלאות במסד הנתונים.</strong> זה אומר ש-MySQL לא פועל, שוורדפרס לא הותקנה כהלכה, או שהטבלאות הבאות פשוט נמחקו: %s. כדאי לבדוק מה קורה עם מסד הנתונים בהקדם האפשרי."
 
 #: wp-includes/class-wp-customize-nav-menus.php:155
-#: wp-includes/class-wp-customize-nav-menus.php:382
-#: wp-includes/class-wp-customize-nav-menus.php:429
+#: wp-includes/class-wp-customize-nav-menus.php:413
 #: wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:322
 #: wp-includes/nav-menu.php:821
 msgid "Custom Link"
@@ -5804,7 +5791,7 @@ msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
 msgstr "j/n/Y בשעה H:i"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1115
+#: wp-includes/class-wp-customize-nav-menus.php:1099
 #: wp-includes/class-wp-editor.php:1704 wp-includes/media-template.php:820
 msgid "Link Text"
 msgstr "טקסט לקישור"
@@ -6248,7 +6235,7 @@ msgstr "בחירה קבוצתית"
 msgid "%s: %l."
 msgstr "%s: %l."
 
-#: wp-includes/class-wp-customize-nav-menus.php:427
+#: wp-includes/class-wp-customize-nav-menus.php:411
 #: wp-includes/script-loader.php:888
 msgctxt "missing menu item navigation label"
 msgid "(no label)"
@@ -6384,8 +6371,8 @@ msgstr "הינך משנה את %s"
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>שגיאה</strong>: לא ניתן לשמור את התגובה. אנא נסה שוב מאוחר יותר."
 
-#: wp-includes/update.php:154 wp-includes/update.php:356
-#: wp-includes/update.php:538
+#: wp-includes/update.php:154 wp-includes/update.php:346
+#: wp-includes/update.php:524
 msgid "(WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)"
 msgstr "(המערכת לא הצליחה להתחבר בצורה מאובטחת לשרת WordPress.org. יש ליצור קשר עם מנהל השרת.)"
 
@@ -6976,7 +6963,7 @@ msgstr "הגדרות פלייליסט"
 msgid "Show Tracklist"
 msgstr "הצגת רשימת קבצים"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1001
+#: wp-includes/class-wp-customize-nav-menus.php:985
 #: wp-includes/class-wp-customize-panel.php:359
 #: wp-includes/class-wp-customize-section.php:350
 #: wp-includes/class-wp-customize-widgets.php:797
@@ -7175,17 +7162,17 @@ msgstr "ארעה שגיאה. טען מחדש את העמוד ונסה שנית."
 msgid "Select an area to move this widget into:"
 msgstr "בחר איזור, והזז לתוכו את הווידג'ט:"
 
-#: wp-includes/class-wp-customize-nav-menus.php:948
+#: wp-includes/class-wp-customize-nav-menus.php:932
 #: wp-includes/class-wp-customize-widgets.php:685
 msgid "Move up"
 msgstr "העבר למעלה"
 
-#: wp-includes/class-wp-customize-nav-menus.php:949
+#: wp-includes/class-wp-customize-nav-menus.php:933
 #: wp-includes/class-wp-customize-widgets.php:684
 msgid "Move down"
 msgstr "העבר למטה"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:54
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:45
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:60
 msgid "Reorder"
 msgstr "סידור מחדש"
@@ -7234,7 +7221,7 @@ msgid "https://wordpress.org/support/forum/requests-and-feedback"
 msgstr "https://wordpress.org/support/forum/requests-and-feedback"
 
 #: wp-includes/admin-bar.php:164 wp-includes/update.php:153
-#: wp-includes/update.php:355 wp-includes/update.php:537
+#: wp-includes/update.php:345 wp-includes/update.php:523
 #: wp-includes/wp-db.php:1062 wp-includes/wp-db.php:1595
 #: wp-includes/wp-db.php:1753 wp-login.php:882
 msgid "https://wordpress.org/support/"
@@ -7273,22 +7260,22 @@ msgstr "קבוצת עמודות"
 msgid "Could not find the specified string."
 msgstr "לא ניתן למצוא את המחרוזת שצוינה."
 
-#: wp-includes/general-template.php:3930
+#: wp-includes/general-template.php:3928
 msgctxt "admin color scheme"
 msgid "Coffee"
 msgstr "קפה"
 
-#: wp-includes/general-template.php:3924
+#: wp-includes/general-template.php:3922
 msgctxt "admin color scheme"
 msgid "Ocean"
 msgstr "אוקיינוס"
 
-#: wp-includes/general-template.php:3918
+#: wp-includes/general-template.php:3916
 msgctxt "admin color scheme"
 msgid "Ectoplasm"
 msgstr "אקטופלסמה"
 
-#: wp-includes/general-template.php:3912
+#: wp-includes/general-template.php:3910
 msgctxt "admin color scheme"
 msgid "Sunrise"
 msgstr "זריחה"
@@ -7346,8 +7333,8 @@ msgid "on"
 msgstr "off"
 
 #. translators: %s: support forums URL
-#: wp-includes/update.php:152 wp-includes/update.php:354
-#: wp-includes/update.php:536
+#: wp-includes/update.php:152 wp-includes/update.php:344
+#: wp-includes/update.php:522
 msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
 msgstr "ארעה שגיאה בלתי צפויה. משהו יכול להיות לא בסדר עם WordPress.org או עם התצורה של השרת. אם הבעיות ממשיכות להופיע, יש לפנות ל<a href=\"%s\">פורום התמיכה</a>."
 
@@ -7363,17 +7350,17 @@ msgstr "no-subset"
 msgid "Use commas instead of %s to separate excluded terms."
 msgstr "השתמש בפסיקים במקום %s כדי להפריד מונחים שלא נכללו."
 
-#: wp-includes/general-template.php:3906
+#: wp-includes/general-template.php:3904
 msgctxt "admin color scheme"
 msgid "Midnight"
 msgstr "כהה"
 
-#: wp-includes/general-template.php:3894
+#: wp-includes/general-template.php:3892
 msgctxt "admin color scheme"
 msgid "Light"
 msgstr "בהיר"
 
-#: wp-includes/general-template.php:3883
+#: wp-includes/general-template.php:3881
 msgctxt "admin color scheme"
 msgid "Default"
 msgstr "ברירת מחדל"
@@ -7382,7 +7369,7 @@ msgstr "ברירת מחדל"
 msgid "Menu"
 msgstr "תפריט"
 
-#: wp-includes/update.php:643
+#: wp-includes/update.php:629
 msgid "Translation Updates"
 msgstr "עדכוני תרגום"
 
@@ -8046,11 +8033,11 @@ msgstr "עורך טקסט"
 msgid "Skip to toolbar"
 msgstr "מעבר לסרגל הכלים"
 
-#: wp-includes/class-wp-customize-manager.php:4981
+#: wp-includes/class-wp-customize-manager.php:4941
 msgid "Header Text Color"
 msgstr "צבע כותרת האתר"
 
-#: wp-includes/class-wp-customize-manager.php:4958
+#: wp-includes/class-wp-customize-manager.php:4918
 msgid "Colors"
 msgstr "צבעים"
 
@@ -8084,7 +8071,7 @@ msgstr "לא ניתן להדביק פוסט פרטי."
 msgid "Sorry, you are not allowed to publish this page."
 msgstr "אין לך הרשאות לפרסם עמוד זה."
 
-#: wp-includes/class-wp-customize-manager.php:5031
+#: wp-includes/class-wp-customize-manager.php:4991
 #: wp-includes/customize/class-wp-customize-header-image-control.php:31
 msgid "Header Image"
 msgstr "תמונת כותרת"
@@ -8128,16 +8115,16 @@ msgid_plural "Site name must be at least %s characters."
 msgstr[0] "שם האתר חייב להכיל מעל תו %s."
 msgstr[1] "שם האתר חייב להכיל מעל %s תווים."
 
-#: wp-includes/class-wp-customize-manager.php:5238
+#: wp-includes/class-wp-customize-manager.php:5198
 msgid "A static page"
 msgstr "עמוד סטטי"
 
-#: wp-includes/class-wp-customize-manager.php:5105
+#: wp-includes/class-wp-customize-manager.php:5065
 #: wp-includes/customize/class-wp-customize-background-image-control.php:30
 msgid "Background Image"
 msgstr "תמונת רקע"
 
-#: wp-includes/class-wp-customize-manager.php:4996
+#: wp-includes/class-wp-customize-manager.php:4956
 msgid "Background Color"
 msgstr "צבע רקע"
 
@@ -8153,7 +8140,7 @@ msgstr "הסר תמונה"
 msgid "Sorry, you are not allowed to edit this comment."
 msgstr "אין לך הרשאות לערוך תגובה זו."
 
-#: wp-includes/class-wp-customize-manager.php:5260
+#: wp-includes/class-wp-customize-manager.php:5220
 msgid "Posts page"
 msgstr "עמוד פוסטים"
 
@@ -8161,7 +8148,7 @@ msgstr "עמוד פוסטים"
 msgid "Allowed Files"
 msgstr "קבצים מותרים"
 
-#: wp-includes/class-wp-customize-manager.php:4940
+#: wp-includes/class-wp-customize-manager.php:4900
 #: wp-includes/class-wp-customize-widgets.php:753
 #: wp-includes/class-wp-editor.php:1258
 #: wp-includes/customize/class-wp-customize-media-control.php:226
@@ -8281,21 +8268,21 @@ msgid "ERROR: The themes directory is either empty or doesn&#8217;t exist. Pleas
 msgstr "שגיאה: תיקיית התבנית ריקה או שהיא אינה קיימת. יש לבדוק את ההתקנה."
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:4369
+#: wp-includes/class-wp-customize-manager.php:4332
 msgid "Customize: %s"
 msgstr "התאם אישית: %s"
 
 #: wp-includes/class-wp-customize-control.php:586
-#: wp-includes/class-wp-customize-nav-menus.php:610
+#: wp-includes/class-wp-customize-nav-menus.php:594
 #: wp-includes/widgets/class-wp-nav-menu-widget.php:143
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; בחירה &mdash;"
 
-#: wp-includes/class-wp-customize-manager.php:4883
+#: wp-includes/class-wp-customize-manager.php:4843
 msgid "Tagline"
 msgstr "תיאור האתר"
 
-#: wp-includes/class-wp-customize-manager.php:5237
+#: wp-includes/class-wp-customize-manager.php:5197
 msgid "Your latest posts"
 msgstr "פוסטים אחרונים"
 
@@ -8466,7 +8453,7 @@ msgstr "יצירת קובץ הגדרות"
 msgid "You can create a %s file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
 msgstr "ניתן ליצור את קובץ ההגדרות %s באמצעות ממשק אינטרנטי, אך הדבר אינו עובד בכל שרת. הדרך הבטוחה ביותר היא ליצור את הקובץ באופן ידני."
 
-#: wp-includes/class-wp-customize-manager.php:5271
+#: wp-includes/class-wp-customize-manager.php:5231
 msgid "https://codex.wordpress.org/CSS"
 msgstr "https://codex.wordpress.org/CSS"
 
@@ -8584,7 +8571,7 @@ msgstr "פורום תמיכה"
 msgid "Documentation"
 msgstr "תיעוד"
 
-#: wp-includes/formatting.php:3361 wp-includes/general-template.php:3802
+#: wp-includes/formatting.php:3361 wp-includes/general-template.php:3800
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -8645,7 +8632,7 @@ msgstr "הקובץ אינו קובץ תמונה. יש לנסות אחר."
 msgid "This is larger than the maximum size. Please try another."
 msgstr "גדול מהמקסימום האפשרי. יש לנסות אחר."
 
-#: wp-includes/general-template.php:3900
+#: wp-includes/general-template.php:3898
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "כחול"
@@ -9432,21 +9419,21 @@ msgid "This is the short link."
 msgstr "כתובת מקוצרת."
 
 #. translators: 1: Number of updates available to plugins
-#: wp-includes/update.php:636
+#: wp-includes/update.php:622
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
 msgstr[0] "שדרוג תוסף %d"
 msgstr[1] "שדרוג %d תוספים"
 
 #. translators: 1: Number of updates available to themes
-#: wp-includes/update.php:640
+#: wp-includes/update.php:626
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
 msgstr[0] "שדרוג תבנית %d"
 msgstr[1] "שדרוג %d תבניות"
 
 #. translators: 1: Number of updates available to WordPress
-#: wp-includes/update.php:632
+#: wp-includes/update.php:618
 msgid "%d WordPress Update"
 msgstr "%d שדרוג וורדפרס"
 
@@ -9568,7 +9555,7 @@ msgid "Select Menu:"
 msgstr "תפריט:"
 
 #: wp-includes/admin-bar.php:836
-#: wp-includes/class-wp-customize-nav-menus.php:581
+#: wp-includes/class-wp-customize-nav-menus.php:565
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:98
 msgid "Menus"
 msgstr "תפריטים"
@@ -9645,7 +9632,7 @@ msgstr "אין לך הרשאות לשנות את המחבר בפוסט זה."
 msgid "Sorry, you are not allowed to update posts as this user."
 msgstr "אין לך הרשאות לעדכן פוסטים."
 
-#: wp-includes/class-wp-customize-nav-menus.php:805
+#: wp-includes/class-wp-customize-nav-menus.php:789
 #: wp-includes/class-wp-xmlrpc-server.php:1377
 #: wp-includes/class-wp-xmlrpc-server.php:1861
 #: wp-includes/class-wp-xmlrpc-server.php:3381
@@ -9799,7 +9786,7 @@ msgstr "לפני שאפשר יהיה להתחבר לחשבון החדש שלך, 
 msgid "%s is your new username"
 msgstr "שם המשתמש החדש שלך הוא %s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:967
+#: wp-includes/class-wp-customize-nav-menus.php:951
 #: wp-includes/script-loader.php:1129 wp-signup.php:562
 msgid "Next"
 msgstr "לשלב הבא"
@@ -10430,8 +10417,8 @@ msgstr "פיד תגובות"
 msgid "Insert Page Break tag"
 msgstr "להכניס תג מעבר עמוד"
 
-#: wp-includes/class-wp-customize-manager.php:5135
-#: wp-includes/class-wp-customize-manager.php:5176
+#: wp-includes/class-wp-customize-manager.php:5095
+#: wp-includes/class-wp-customize-manager.php:5136
 msgid "Fill Screen"
 msgstr "מסך מלא"
 
@@ -10568,7 +10555,7 @@ msgstr "מסמך חדש"
 msgid "Paste"
 msgstr "הדבק"
 
-#: wp-includes/class-wp-customize-manager.php:4202
+#: wp-includes/class-wp-customize-manager.php:4165
 #: wp-includes/class-wp-editor.php:1045
 msgid "Copy"
 msgstr "העתק"
@@ -10875,11 +10862,11 @@ msgstr "המשתמש חסם את הגישה ב-HTTP"
 msgid "Gray"
 msgstr "אפור"
 
-#: wp-includes/general-template.php:3717
+#: wp-includes/general-template.php:3715
 msgid "Next &raquo;"
 msgstr "הבא &raquo;"
 
-#: wp-includes/general-template.php:3716
+#: wp-includes/general-template.php:3714
 msgid "&laquo; Previous"
 msgstr "&laquo; קודם"
 
@@ -11173,7 +11160,7 @@ msgstr "הצג היררכיה"
 msgid "Select Category"
 msgstr "בחירת קטגוריה"
 
-#: wp-includes/widgets/class-wp-widget-text.php:489
+#: wp-includes/widgets/class-wp-widget-text.php:468
 msgid "Automatically add paragraphs"
 msgstr "לחלק אוטומטית לפסקאות"
 
@@ -11455,8 +11442,8 @@ msgstr "להפריד תגיות בפסיקים"
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:135
 #: wp-includes/widgets/class-wp-widget-search.php:70
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:126
-#: wp-includes/widgets/class-wp-widget-text.php:474
-#: wp-includes/widgets/class-wp-widget-text.php:507
+#: wp-includes/widgets/class-wp-widget-text.php:453
+#: wp-includes/widgets/class-wp-widget-text.php:486
 msgid "Title:"
 msgstr "כותרת:"
 
@@ -11464,7 +11451,7 @@ msgstr "כותרת:"
 msgid "Plugin:"
 msgstr "תוסף:"
 
-#: wp-includes/class-wp-customize-manager.php:4941
+#: wp-includes/class-wp-customize-manager.php:4901
 #: wp-includes/customize/class-wp-customize-color-control.php:51
 #: wp-includes/customize/class-wp-customize-media-control.php:225
 #: wp-includes/customize/class-wp-customize-media-control.php:235
@@ -11495,7 +11482,7 @@ msgstr "להרשות לקוראים להגיב לפוסטים חדשים"
 msgid "Email"
 msgstr "אימייל"
 
-#: wp-includes/class-wp-customize-manager.php:4872
+#: wp-includes/class-wp-customize-manager.php:4832
 #: wp-includes/class-wp-xmlrpc-server.php:540
 msgid "Site Title"
 msgstr "שם האתר"
@@ -11642,7 +11629,7 @@ msgstr "עמוד חדש"
 msgid "Select"
 msgstr "בחירה"
 
-#: wp-includes/class-wp-customize-manager.php:5301
+#: wp-includes/class-wp-customize-manager.php:5261
 #: wp-includes/class-wp-editor.php:1053 wp-includes/class-wp-editor.php:1695
 #: wp-includes/script-loader.php:277 wp-includes/script-loader.php:371
 #: wp-includes/script-loader.php:562 wp-includes/script-loader.php:1125
@@ -11683,10 +11670,10 @@ msgstr "תמונות"
 msgid "Search"
 msgstr "חיפוש"
 
-#: wp-includes/class-wp-customize-manager.php:4129
+#: wp-includes/class-wp-customize-manager.php:4090
 #: wp-includes/script-loader.php:146 wp-includes/script-loader.php:307
-#: wp-includes/widgets/class-wp-widget-text.php:521
-#: wp-includes/widgets/class-wp-widget-text.php:536
+#: wp-includes/widgets/class-wp-widget-text.php:500
+#: wp-includes/widgets/class-wp-widget-text.php:515
 msgid "Dismiss"
 msgstr "סגור"
 
@@ -11695,7 +11682,7 @@ msgid "All Categories"
 msgstr "כל הקטגוריות"
 
 #: wp-includes/class-wp-customize-control.php:634
-#: wp-includes/class-wp-customize-nav-menus.php:1081
+#: wp-includes/class-wp-customize-nav-menus.php:1065
 msgid "Add"
 msgstr "להוסיף"
 
@@ -11868,7 +11855,7 @@ msgstr "פינגבאק"
 msgid "Reply"
 msgstr "הגב"
 
-#: wp-includes/class-wp-customize-manager.php:4622
+#: wp-includes/class-wp-customize-manager.php:4583
 #: wp-includes/script-loader.php:551 wp-includes/script-loader.php:693
 msgid "Save Draft"
 msgstr "שמירת טיוטה"
@@ -11896,7 +11883,7 @@ msgstr "תוספים"
 msgid "Recent Comments"
 msgstr "תגובות אחרונות"
 
-#: wp-includes/class-wp-customize-manager.php:4156
+#: wp-includes/class-wp-customize-manager.php:4119
 #: wp-includes/class-wp-editor.php:1119 wp-includes/media-template.php:1247
 msgid "Preview"
 msgstr "תצוגה מקדימה"
@@ -11909,7 +11896,7 @@ msgstr "RSS"
 msgid "Anonymous"
 msgstr "משתמש אנונימי (לא מזוהה)"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:55
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:46
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:61
 #: wp-includes/script-loader.php:879
 msgid "Done"
@@ -12002,7 +11989,7 @@ msgstr "גרסאות"
 msgid "Excerpt"
 msgstr "תקציר"
 
-#: wp-includes/class-wp-customize-manager.php:4617
+#: wp-includes/class-wp-customize-manager.php:4578
 #: wp-includes/script-loader.php:549 wp-includes/script-loader.php:689
 msgid "Publish"
 msgstr "פרסום"
@@ -12044,7 +12031,7 @@ msgctxt "noun"
 msgid "Comment"
 msgstr "התגובה שלך"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1111
+#: wp-includes/class-wp-customize-nav-menus.php:1095
 #: wp-includes/class-wp-editor.php:1136 wp-includes/class-wp-editor.php:1700
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:86
 #: wp-includes/media-template.php:376 wp-includes/media-template.php:557

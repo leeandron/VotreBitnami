@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-02-03 01:06:10+0000\n"
+"PO-Revision-Date: 2017-12-06 13:23:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,10 +25,6 @@ msgstr "Asia/Jerusalem"
 msgctxt "start of week"
 msgid "1"
 msgstr "0"
-
-#: wp-admin/customize.php:80
-msgid "This changeset cannot be further modified."
-msgstr "לא ניתן לערוך יותר שינוי זה."
 
 #: wp-admin/about.php:262
 msgid "Improvements to Roles and Capabilities"
@@ -768,6 +764,10 @@ msgstr "https://he.wordpress.org/plugins/"
 #: wp-admin/customize.php:72 wp-admin/customize.php:81
 msgid "Customize New Changes"
 msgstr "התאמת שינויים חדשים"
+
+#: wp-admin/customize.php:80
+msgid "This changeset has already been published and cannot be further modified."
+msgstr "השינויים כבר פורסמו ולא ניתן לערוך אותם יותר."
 
 #: wp-admin/custom-background.php:399 wp-admin/custom-background.php:400
 msgctxt "Background Repeat"
@@ -2644,7 +2644,7 @@ msgid "<a href=\"https://codex.wordpress.org/Managing_Plugins#Plugin_Management\
 msgstr "<a href=\"https://codex.wordpress.org/Managing_Plugins#Plugin_Management\">תיעוד בנושא ניהול תוספים</a>"
 
 #. translators: %s: the option/setting
-#: wp-admin/options.php:200
+#: wp-admin/options.php:198
 msgid "The %s setting is unregistered. Unregistered settings are deprecated. See https://codex.wordpress.org/Settings_API"
 msgstr "ההגדרה %s איננה קיימת. ראו https://codex.wordpress.org/Settings_API"
 
@@ -6051,16 +6051,6 @@ msgstr "סקירה"
 msgid "<strong>Drag and Drop</strong> &mdash; To rearrange the boxes, drag and drop by clicking on the title bar of the selected box and releasing when you see a gray dotted-line rectangle appear in the location you want to place the box."
 msgstr "<strong>גרור ושחרר</strong> - כדי לארגן מחדש את תיבות התוכן, יש לגרור ולשחרר אותן על ידי לחיצה על שורת הכותרת של התיבה ולשחרר אותה במיקום הרצוי במלבן האפור עם המסגרת המנוקדות."
 
-#: wp-admin/menu.php:225
-msgid "All Users"
-msgstr "כל המשתמשים"
-
-#: wp-admin/includes/class-wp-theme-install-list-table.php:408
-#: wp-admin/includes/deprecated.php:1381 wp-admin/includes/theme.php:699
-#: wp-admin/theme-install.php:290 wp-admin/theme-install.php:310
-msgid "Install"
-msgstr "התקנה"
-
 #: wp-admin/edit-tag-form.php:264
 #: wp-admin/includes/class-wp-links-list-table.php:82
 #: wp-admin/includes/class-wp-links-list-table.php:318
@@ -6078,6 +6068,16 @@ msgstr "התקנה"
 #: wp-admin/themes.php:499 wp-admin/widgets.php:320
 msgid "Delete"
 msgstr "מחיקה"
+
+#: wp-admin/menu.php:225
+msgid "All Users"
+msgstr "כל המשתמשים"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:408
+#: wp-admin/includes/deprecated.php:1381 wp-admin/includes/theme.php:699
+#: wp-admin/theme-install.php:290 wp-admin/theme-install.php:310
+msgid "Install"
+msgstr "התקנה"
 
 #: wp-admin/menu.php:227 wp-admin/menu.php:229 wp-admin/user-edit.php:215
 #: wp-admin/users.php:493
@@ -6099,7 +6099,7 @@ msgid "View"
 msgstr "הצגה"
 
 #: wp-admin/my-sites.php:54 wp-admin/options-head.php:15
-#: wp-admin/options.php:235
+#: wp-admin/options.php:233
 msgid "Settings saved."
 msgstr "הגדרות נשמרו."
 
@@ -8093,7 +8093,7 @@ msgstr "שם משתמש"
 msgid "Update Services"
 msgstr "שירותי עדכון"
 
-#: wp-admin/options.php:249
+#: wp-admin/options.php:247
 msgid "All Settings"
 msgstr "כל ההגדרות"
 
@@ -9907,7 +9907,7 @@ msgid "neighbor"
 msgstr "שכן"
 
 #: wp-admin/includes/template.php:1994 wp-admin/nav-menus.php:659
-#: wp-admin/options.php:296
+#: wp-admin/options.php:294
 msgid "Save Changes"
 msgstr "שמור שינויים"
 
